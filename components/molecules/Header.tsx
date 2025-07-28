@@ -13,7 +13,7 @@ export default function Header() {
             <div className="border-l border-gray-600 pl-3">
               <div className="text-white">
                 <h1 className="text-sm sm:text-lg font-bold tracking-wide">MOTOCLUB KOTTACKAL</h1>
-                <p className="text-xs text-gray-400 tracking-wider">PREMIUM AUTO PARTS</p>
+                <p className="text-xs text-gray-400 tracking-wider">SALES HANDLE</p>
               </div>
             </div>
           </div>
