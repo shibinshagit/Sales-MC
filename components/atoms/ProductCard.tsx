@@ -110,10 +110,9 @@ export default function ProductCard({ product }: ProductCardProps) {
               </div>
 
               <div className="flex items-center justify-between text-xs text-gray-500 pt-1 border-t border-gray-700/50">
-                <span className="text-blue-400">#ms{product.msp}</span>
+              <span className="font-mono">item:{product.barcode.slice(-6)}</span>
                 <div className="flex items-center gap-1">
-                  <Hash className="h-3 w-3" />
-                  <span className="font-mono">{product.barcode.slice(-6)}</span>
+                  <span className="font-mono">  #MS0{String(product.msp).split(".")[0]}</span>
                 </div>
               </div>
             </div>
@@ -182,10 +181,8 @@ export default function ProductCard({ product }: ProductCardProps) {
                 )}
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-blue-400">#ms{product.msp}</span>
                 <div className="flex items-center gap-1">
-                  <Hash className="h-3 w-3" />
-                  <span className="font-mono">{product.barcode.slice(-6)}</span>
+                   <span className="font-mono">  #MS0{String(product.msp).split(".")[0]}</span>
                 </div>
               </div>
             </div>
